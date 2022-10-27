@@ -1,4 +1,24 @@
 
 #header {
-    background: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    background: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 50px
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li:hover {
+    color: grey;
+    cursor: pointer;
+    background: rgb(17, 14, 14)
 }
