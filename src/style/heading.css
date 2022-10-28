@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     height: 10vh;
+    width: 60vw;
     background: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

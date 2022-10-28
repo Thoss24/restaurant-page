@@ -1,0 +1,21 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bodyArea {
+    display: flex;
+    height: 80vh;
+    width: 60vw;
+    background: url(../images/leon-bublitz-fBeRt6DnhC8-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
