@@ -9,7 +9,7 @@ function bodySection() {
     mainDivTitleArea.id = 'mainDivTitleArea';
 
     const mainDivTitle = document.createElement('h2');
-    mainDivTitle.textContent = "Restaurant menu"
+    mainDivTitle.textContent = "Greeting message"
 
     bodyDiv.appendChild(mainDiv);
     mainDiv.appendChild(mainDivTitleArea);
