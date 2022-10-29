@@ -3,7 +3,7 @@ function headerSection() {
    headerDiv.id = "header";
 
    const headerTitle = document.createElement('h1');
-   headerTitle.textContent = "MY RESTAURANT";
+   headerTitle.textContent = "HOKAGE NOODLE BAR";
 
    const headerList = document.createElement('ul');
    headerList.id = "headerList";

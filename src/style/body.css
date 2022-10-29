@@ -1,7 +1,8 @@
 html, body {
     padding: 0;
     margin: 0;
-    background: rgba(7, 1, 1, 0.8)
+    background: rgba(7, 1, 1, 0.8);
+    height: 100%;
 }
 
 #content {
@@ -16,7 +17,7 @@ html, body {
     justify-content: center;
     color: white;
     height: 80vh;
-    width: 55vw;
+    width: 60vh;
     background: url(../images/leon-bublitz-fBeRt6DnhC8-unsplash.jpg);
     background-size: 100% 100%;
 }
@@ -25,9 +26,12 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 #mainDivTitleArea > h2 {
+    display: flex;
     font-size: 30px;
+    width: 100%;
 }
 
