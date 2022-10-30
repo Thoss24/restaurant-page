@@ -1,8 +1,12 @@
-html, body {
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background: rgba(7, 1, 1, 0.8);
-    height: 100%;
+}
+
+html, body {
+    background: rgba(7, 1, 1, 0.8); 
+    min-width: 750px;
 }
 
 #content {
@@ -10,16 +14,19 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 750px
 }
 
 #bodyArea {
     display: flex;
     justify-content: center;
     color: white;
-    height: 80vh;
-    width: 60vh;
+    height: 82vh;
+    min-width: 60vh;
     background: url(../images/leon-bublitz-fBeRt6DnhC8-unsplash.jpg);
     background-size: 100% 100%;
+    min-height: 1000px;
+    
 }
 
 #mainDiv {
@@ -27,6 +34,7 @@ html, body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width: 700px;
 }
 
 #mainDivTitleArea > h2 {
