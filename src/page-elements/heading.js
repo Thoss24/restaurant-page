@@ -24,7 +24,7 @@ function headerSection() {
 
    headerDiv.appendChild(headerList)
 
-   return headerDiv;
+   return headerDiv
 };
 
 export default headerSection;

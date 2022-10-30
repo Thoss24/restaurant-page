@@ -7,13 +7,11 @@ function bodySection() {
 
     const mainDivTitleArea = document.createElement('div');
     mainDivTitleArea.id = 'mainDivTitleArea';
-
-    const mainDivTitle = document.createElement('h2');
-    mainDivTitle.textContent = "Greeting message"
+    
 
     bodyDiv.appendChild(mainDiv);
     mainDiv.appendChild(mainDivTitleArea);
-    mainDivTitleArea.appendChild(mainDivTitle);
+    
 
     return bodyDiv
 };
