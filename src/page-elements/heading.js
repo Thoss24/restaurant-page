@@ -10,12 +10,15 @@ function headerSection() {
    const headerMenu = document.createElement('li');
    const headerAbout = document.createElement('li');
    const headerContact = document.createElement('li');
+   const headerHome = document.createElement('li');
    headerMenu.textContent = "MENU";
    headerAbout.textContent = "ABOUT";
    headerContact.textContent = "CONTACT";
+   headerHome.textContent = "HOME";
    headerList.appendChild(headerMenu);
    headerList.appendChild(headerAbout);
    headerList.appendChild(headerContact);
+   headerList.appendChild(headerHome);
 
    headerDiv.appendChild(headerTitle);
 
