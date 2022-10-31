@@ -1,12 +1,16 @@
 import initialLoad from "./functions/initialLoad";
 import loadContact from "./functions/loadContact";
-import bodySection from "./page-elements/body";
-import headerSection from "./page-elements/heading";
 import "./style/heading.css";
 import "./style/body.css";
 import "./style/footer.css";
 
 initialLoad();
 
+const mainArea = document.getElementById('mainDiv');
 
 
+const loadTest = document.createElement('button');
+
+loadTest.addEventListener('click', loadContact)
+
+mainArea.appendChild(loadTest)
