@@ -8,9 +8,10 @@ initialLoad();
 
 const mainArea = document.getElementById('mainDiv');
 
+function loadContactArea() {
+const contactButton = document.getElementById('headerContact');
+contactButton.addEventListener("click", loadContact)
+};
+loadContactArea()
 
-const loadTest = document.createElement('button');
 
-loadTest.addEventListener('click', loadContact)
-
-mainArea.appendChild(loadTest)
