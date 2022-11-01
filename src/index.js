@@ -1,6 +1,7 @@
 import initialLoad from "./functions/initialLoad";
 import loadContact from "./functions/loadContact";
 import loadHome from "./functions/main-elements/loadHome";
+import loadAbout from "./functions/main-elements/loadAbout";
 import "./style/heading.css";
 import "./style/body.css";
 import "./style/footer.css";
@@ -12,13 +13,19 @@ const mainArea = document.getElementById('mainDiv');
 function loadContactArea() {
 const contactButton = document.getElementById('headerContact');
 contactButton.addEventListener("click", loadContact)
-};
-loadContactArea()
+}
+loadContactArea();
 
 function loadHomeArea() {
     const homeButton = document.getElementById('headerHome');
     homeButton.addEventListener('click', loadHome)
 }
-loadHomeArea()
+loadHomeArea();
+
+function loadABoutArea() {
+    const aboutButton = document.getElementById('headerAbout');
+    aboutButton.addEventListener("click", loadAbout)
+}
+loadABoutArea();
 
 
