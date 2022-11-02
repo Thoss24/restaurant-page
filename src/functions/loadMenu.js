@@ -10,8 +10,13 @@ function createMenu() {
     menuItem2.id = "menuItem2";
     menuItem2.src = '../src/images/pork.jpg';
 
+    const menuItem3 = document.createElement('img');
+    menuItem3.id = "menuItem3";
+    menuItem3.src = "../src/images/prawn.jpg";
+
     menuContainer.appendChild(menuItem1);
-    menuContainer.appendChild(menuItem2)
+    menuContainer.appendChild(menuItem2);
+    menuContainer.appendChild(menuItem3);
 
     return menuContainer
 
