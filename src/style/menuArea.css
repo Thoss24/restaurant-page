@@ -1,8 +1,16 @@
 #menuContainer {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #menuItem1 {
+    height: 150px;
+    width: 150px
+}
+
+#menuItem2 {
     height: 150px;
     width: 150px
 }
