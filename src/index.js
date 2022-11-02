@@ -2,6 +2,7 @@ import initialLoad from "./functions/initialLoad";
 import loadContact from "./functions/loadContact";
 import loadHome from "./functions/main-elements/loadHome";
 import loadAbout from "./functions/main-elements/loadAbout";
+import loadMenu from "./functions/loadMenu";
 import "./style/heading.css";
 import "./style/body.css";
 import "./style/footer.css";
@@ -27,5 +28,11 @@ function loadABoutArea() {
     aboutButton.addEventListener("click", loadAbout)
 }
 loadABoutArea();
+
+function loadMenuArea() {
+    const menuButton = document.getElementById('headerMenu');
+    menuButton.addEventListener("click", loadMenu)
+}
+loadMenuArea()
 
 
