@@ -3,6 +3,7 @@ function createMenu() {
     menuContainer.id = "menuContainer";
 
     const menuItem1 = document.createElement('img');
+    menuItem1.id = "menuItem1";
     menuItem1.src = '../src/images/chili.jpg';
 
     menuContainer.appendChild(menuItem1);

@@ -6,6 +6,7 @@ import loadMenu from "./functions/loadMenu";
 import "./style/heading.css";
 import "./style/body.css";
 import "./style/footer.css";
+import "./style/menuArea.css";
 
 initialLoad();
 
