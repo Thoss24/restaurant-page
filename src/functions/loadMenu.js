@@ -36,16 +36,35 @@ function createMenu() {
     menuItem4Area.id = "menuItem4Area"
     const menuItem4 = document.createElement('img');
     menuItem4.id = "menuItem4";
-    menuItem4.src = "../src/images/niboshi.jpg";
-    menuItem4Area.textContent = "Seafood Bowl";
+    menuItem4.src = "../src/images/white-noodle-soup.jpg";
+    menuItem4Area.textContent = "Noodle soup";
     menuItem4Area.appendChild(menuItem4);
 
+    // menu item 5 area
+    const menuItem5Area = document.createElement('div');
+    menuItem5Area.id = "menuItem5Area";
+    const menuItem5 = document.createElement('img');
+    menuItem5.id = "menuItem5";
+    menuItem5.src = "../src/images/duck-bowl.jpg";
+    menuItem5Area.textContent = "Duck bowl";
+    menuItem5Area.appendChild(menuItem5);
+
+    // menu item 6 area
+    const menuItem6Area = document.createElement('div');
+    menuItem6Area.id = "menuItem6Area";
+    const menuItem6 = document.createElement('img');
+    menuItem6.id = "menuItem5";
+    menuItem6.src = "../src/images/5am-ramen.jpg";
+    menuItem6Area.textContent = "5am ramen";
+    menuItem6Area.appendChild(menuItem6);
 
     // append menu items to menu div
     menuContainer.appendChild(menuItem1Area);
     menuContainer.appendChild(menuItem2Area);
     menuContainer.appendChild(menuItem3Area);
     menuContainer.appendChild(menuItem4Area);
+    menuContainer.appendChild(menuItem5Area);
+    menuContainer.appendChild(menuItem6Area);
 
     return menuContainer
 }
