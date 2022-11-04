@@ -1,6 +1,7 @@
 function createHome() {
 
     const homeArea = document.createElement('div');
+    homeArea.id = "homeArea"
 
     const homeGreeting = document.createElement('h1');
     homeGreeting.textContent = "Welcome to HOKAGE NOODLE BAR";
