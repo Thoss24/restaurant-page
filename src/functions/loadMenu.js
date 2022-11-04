@@ -54,8 +54,8 @@ function createMenu() {
     menuItem6Area.id = "menuItem6Area";
     const menuItem6 = document.createElement('img');
     menuItem6.id = "menuItem5";
-    menuItem6.src = "../src/images/5am-ramen.jpg";
-    menuItem6Area.textContent = "5am ramen";
+    menuItem6.src = "../src/images/pork-cutlet-bowl.jpg";
+    menuItem6Area.textContent = "Pork cutlet";
     menuItem6Area.appendChild(menuItem6);
 
     // append menu items to menu div
