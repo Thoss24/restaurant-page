@@ -7,7 +7,7 @@ function createAbout() {
     aboutTitle.textContent = "About HOKAGE NOODLE";
 
     const aboutDescription = document.createElement('div');
-    aboutDescription.innerHTML = "HOKAGE NOODLE bar was opened 20 years ago as a street vendor and only served Tonkotsu ramen bowls." + "<br>" + "However, over the years the popularity of the food kept growing until we eventually opened our restaurant. " + "<br>" + "We now serve Miso, Shoyu, Shio, Tsukemen and many other ramen dishes as well.";
+    aboutDescription.innerHTML = "HOKAGE NOODLE bar was opened 20 years ago as a street" + "<br>" +  "vendor and only served Tonkotsu ramen bowls." + "<br>" + "However, over the years the popularity of the food kept growing" + "<br>" + "until we eventually opened our restaurant. " + "<br>" + "We now serve Miso, Shoyu, Shio, Tsukemen and many other ramen dishes as well.";
 
     aboutArea.appendChild(aboutTitle);
     aboutArea.appendChild(aboutDescription);
